@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+body {
+  background-color: aliceblue;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(86, 86, 85, 0.896);
+
+}
+
+.img-profil{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url('images/profil\ -\ copie.jpg');
+  background-repeat: no-repeat;
+}
+
+.btn-network-instagram{
+  width: 50px;
+  height: 50px;
+  background-image: url('images/instagram-brands.svg');
+  background-repeat: no-repeat;
+}
+
+.btn-network-twitter{
+  width: 50px;
+  height: 50px;
+  background-image: url('images/twitter-brands.svg');
+  background-repeat: no-repeat;
+}
+
+.btn-network-facebook{
+  width: 50px;
+  height: 50px;
+  background-image: url('images/facebook-brands.svg');
+  background-repeat: no-repeat;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li{
+  display: inline-block;
+}
+
+input:hover{
+  background-color: bisque;
+}
+
+div{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-profil{
+  color: aliceblue;
+  background-color: aquamarine;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-profil:hover{
+  background-color: blueviolet;
+  color: bisque;
+}
+
+a{
+  text-decoration: none;
+}
+
+.nyan{
+  width: 200px;
+  height: 100px;
+}
+
+button{
+
+  text-align: center;
+}
+
+marquee{
+  visibility: hidden;
+  height: 2px;
+}
+
+
+.block-div{
+  padding: 10px 20px;
+  border-radius: 3px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+  background-color: white;
+}
+
+button{
+  color: aliceblue;
+  background-color: aquamarine;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+}
+
+.hidden{
+  visibility: hidden;
+}

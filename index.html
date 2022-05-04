@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+  <script>
+    function toggleTheme() {
+        var theme = document.getElementsByTagName('link')[0];
+        if (theme.getAttribute('href') == 'style2.css') {
+            theme.setAttribute('href', 'style.css');
+        } else {
+            theme.setAttribute('href', 'style2.css');
+        }
+    }
+</script>
+
+  <title>Olivier's profil</title>
+</head>
+<body>
+  <div class="block-div">
+    <h1>Hi it's Olivier</h1>
+    <div class="img-profil"></div>
+    <h2>Software Engineer</h2>
+    <p>37 years old, with 2 daughters</p>
+    <a href="https://github.com/OriginalNode">
+    <input type="button" value="Go !" class="btn-profil">
+    </a>
+  </div>
+
+  <div class="block-div">
+    <h2>Lorem</h2>
+    <p class="hidden rainbow-text">join me on my <a href="https://fr.wikipedia.org/wiki/Internet_Relay_Chat">IRC channel</a></p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi quibusdam modi praesentium ut inventore consectetur tenetur et sint qui. Corporis obcaecati debitis deserunt ipsam expedita rem suscipit necessitatibus rerum quisquam.</p>
+  </div>
+
+  <marquee direction="right" scrollamount="15" class="nyan">
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="nyan"><img src="images/nyan.svg" alt="" height="100px" width="200px" class="nyan"></a>
+  </marquee>
+
+  <div class="block-div">
+    <h2>Keep in touch !</h2>
+    <ul>
+      <li>
+        <a href="https://twitter.com/" target="_blank"><div class="btn-network-twitter"></div></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/" target="_blank"><div class="btn-network-instagram"></div></a>
+      </li>
+      <li>
+        <a href="https://fr-fr.facebook.com/" target="_blank"><div class="btn-network-facebook"></div></a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <button onclick="toggleTheme()">Switch to AWESOME</button>
+  </div>
+
+  <p class="hidden"><img src="https://i.picasion.com/gl/92/fPoI.gif" width="392" height="30" border="0" alt="https://picasion.com/gl/fPoI/" /><img src="images/frontpag.jpg" alt=""> Vous etes le <script type="text/javascript" src="//compteur.websiteout.com/js/2/5/257/0"></script> visiteur.</p>
+</body>
+</html>

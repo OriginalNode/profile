@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500&display=swap');
+
+body {
+  background-image: url('/images/back.jpeg');
+  font-family: 'IBM Plex Mono', monospace;
+  color: rgba(255, 208, 0, 0.896);
+
+}
+
+.img-profil{
+  width: 150px;
+  height: 199px;
+  background-image: url('images/profil-pix.png');
+  background-repeat: no-repeat;
+  cursor:none;
+}
+
+.btn-network-instagram{
+  width: 100px;
+  height: 100px;
+  background-image: url('images/instagram.png');
+  background-repeat: no-repeat;
+}
+
+.btn-network-twitter{
+  width: 100px;
+  height: 100px;
+  background-image: url('images/twitter.png');
+  background-repeat: no-repeat;
+}
+
+.btn-network-facebook{
+  width: 100px;
+  height: 100px;
+  background-image: url('images/facebook.png');
+  background-repeat: no-repeat;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li{
+  display: inline-block;
+}
+
+input:hover{
+  background-color: bisque;
+}
+
+div{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo{
+  width: 100px;
+  display: inline-flex;
+}
+
+.logo img{
+  margin: auto 5px;
+  float: left;
+  width: 150px;
+  height: 38px;
+  background: url('/images/back.jpeg');
+}
+
+.nyan{
+  cursor: url('images/gun.svg'), auto;
+}
+
+.rainbow-text {
+	background: linear-gradient(90deg,red,orange,#ff0,green,#0ff,#00f,violet);
+}
